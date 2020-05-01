@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Randy Tolentino`,
-    description: `Randy Tolentino is an emerging writer who brings his fresh perspective and a unique literary style to the intersection of family culture, career growth, and self-development. He's a software developer by day, designer by night, and writer by 3:30 AM. He resides in the greater ATX area with his wife, two kids, and their husky.`,
+    description: `Randy Tolentino is an established Software Developer and Product Design Lead who’s committed to building high-quality, digital experiences for users everywhere. During off hours, he uses his unique literary style as a freelance writer to cover the intersections of family culture, career growth, and self-development. He lives with his wife, two kids, and the family 🐕.`,
     author: `@makertolentino`,
   },
   plugins: [
