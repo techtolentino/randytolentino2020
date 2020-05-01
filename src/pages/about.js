@@ -25,22 +25,22 @@ const AboutPage = () => (
         </div>
         <div className="rt-hero-about-facts">
           <h5 className="rt-work-section-item-title">Current status</h5>
-          <ul class="rt-hero-current-list">
+          <ul className="rt-hero-current-list">
             <li>
-              <span class="rt-hero-current-category">Writing:</span>
-              <span class="rt-hero-current-pick">Fresh Moon newsletter</span>
+              <span className="rt-hero-current-category">Writing:</span>
+              <span className="rt-hero-current-pick">Fresh Moon newsletter</span>
             </li>
             <li>
-              <span class="rt-hero-current-category">Reading:</span>
-              <span class="rt-hero-current-pick"><em>The Making of a Manager</em> by Julie Zhuo<br /><em>The Motivation Manifesto</em> by Brendan Burchard</span>
+              <span className="rt-hero-current-category">Reading:</span>
+              <span className="rt-hero-current-pick"><em>The Making of a Manager</em> by Julie Zhuo<br /><em>The Motivation Manifesto</em> by Brendan Burchard</span>
             </li>
             <li>
-              <span class="rt-hero-current-category">Listening:</span>
-              <span class="rt-hero-current-pick">Khalid, Aesop Rock, Outkast</span>
+              <span className="rt-hero-current-category">Listening:</span>
+              <span className="rt-hero-current-pick">Khalid, Aesop Rock, Outkast</span>
             </li>
             <li>
-              <span class="rt-hero-current-category">Studying:</span>
-              <span class="rt-hero-current-pick"><em>Aspiring to Management II</em> via IBM Leadership Academy. <em>Create Your Own Economy</em> by Bob Proctor</span>
+              <span className="rt-hero-current-category">Studying:</span>
+              <span className="rt-hero-current-pick"><em>Aspiring to Management II</em> via IBM Leadership Academy. <em>Create Your Own Economy</em> by Bob Proctor</span>
             </li></ul>
         </div>
       </div>
