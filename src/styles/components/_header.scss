@@ -16,6 +16,9 @@
     font-size: 1rem;
     text-decoration: none;
     color: $white;
+    @include breakpoint(md) {
+      font-size: .75rem;
+    }
   }
   
   &-header-nav-item {
@@ -26,6 +29,10 @@
     
     &:hover {
       color: $blue-dark;
+    }
+    
+    @include breakpoint(md) {
+      font-size: .75rem;
     }
   }
   
