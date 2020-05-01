@@ -10,7 +10,7 @@
 @mixin container {
   display: flex;
   min-height: calc(100vh - 7.375rem);
-  padding-top: 8rem;
+  padding-top: 6rem;
   
   @include breakpoint(md) {
     padding-top: 6rem;
@@ -56,11 +56,50 @@
     
     &-title {
       @include title;
-      color: $dark;
+      color:$blue-dark;
     }
     
     &-subtitle {
       margin-bottom: 3rem;
+    }
+  }
+  
+  &-hero-about {
+    background: url('../images/bg-white.svg') center center no-repeat;
+    background-size: cover;
+    
+    & .rt-container {
+      @include container;
+      justify-content: space-between;
+      
+      @include breakpoint(md) {
+        flex-direction: column;
+      }
+    }
+    
+    &-content,
+    &-facts {
+      max-width: $sm;
+    }
+    
+    &-facts {
+      padding: 9rem 2rem 2rem 2rem;
+      
+      @include breakpoint(md) {
+        padding: 0 0 4rem 0;
+      }
+    }
+  }
+  
+  &-hero-current {
+    &-category {
+      font-weight: 600;
+      display: block;
+    }
+    
+    &-pick {
+      display: block;
+      margin-bottom: 1rem;
     }
   }
 

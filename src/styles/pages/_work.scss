@@ -2,10 +2,19 @@
 .#{$prefix}-work {
   
   &-section .rt-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
     padding-bottom: 4rem;
+    
+    @include breakpoint(lg) {
+      grid-template-columns: repeat(2,1fr);
+    }
+    
+    @include breakpoint(md) {
+      grid-template-columns: repeat(1,1fr);
+    }
   }
   
   &-section-title {
@@ -26,14 +35,40 @@
   }
   
   &-section-item {
+    display: block;
+    color: $dark;
+    text-decoration: none;
     border: 1px solid #EAEAEA;
-    margin: 0 2rem 2rem 0;
     width: 100%;
-    max-width: 364px;
+    position: relative;
+    transition: .6s all cubic-bezier(0.075, 0.82, 0.165, 1);
     
     &-title {
       margin-bottom: .25rem;
       font-style: 1.214em;
+    }
+    
+    &.inactive:hover  {
+      background: $white;
+      border: 1px solid #EAEAEA;
+    }
+    
+    &.inactive:hover .rt-link-external {
+      opacity: .2;
+    }
+    
+    &.inactive .rt-link-external {
+      bottom: 1rem;
+    }
+    
+    &:hover {
+      background: $blue-hint;
+      border: 1px solid $green;
+      transition: .6s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    
+    &:hover .rt-link-external {
+      opacity: .8;
     }
     
     @include breakpoint(sm) {
@@ -43,6 +78,7 @@
   }
   
   &-meta {
+    display: block;
     max-width: 90%;
     padding: 1rem;
     min-height: 300px;
@@ -60,6 +96,17 @@
     position: absolute;
     bottom: 1rem;
     color: $gray;
+    font-size: .75rem;
+    
+    &-label,
+    &-time,
+    &-tags {
+      display: block;
+    }
+    
+    &-time {
+      font-style: italic;
+    }
   }
   
   &-meta-stack {

@@ -1,8 +1,0 @@
-<svg width="138" height="138" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M112.125 138H25.875C11.5834 138 0 126.417 0 112.125V25.875C0 11.5834 11.5834 0 25.875 0H112.125C126.417 0 138 11.5834 138 25.875V112.125C138 126.417 126.417 138 112.125 138Z" fill="white"/>
-<rect x="23" y="41" width="92" height="61" rx="2" fill="#3F00D9"/>
-<line y1="-1.5" x2="58.2495" y2="-1.5" transform="matrix(-0.824042 0.566529 0.566529 0.824042 117 42)" stroke="white" stroke-width="3"/>
-<line x1="54.7545" y1="70.0607" x2="23.0607" y2="101.755" stroke="white" stroke-width="3"/>
-<line y1="-1.5" x2="44.8219" y2="-1.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 84 69)" stroke="white" stroke-width="3"/>
-<line x1="21.8498" y1="40.7639" x2="69.8498" y2="73.7639" stroke="white" stroke-width="3"/>
-</svg>

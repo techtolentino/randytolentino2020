@@ -3,26 +3,45 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import NotebookIcon from "../images/notebook.png"
-import MacIcon from "../images/mac.png"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-    <section className="rt-hero-contact">
+    <section className="rt-hero-about">
       <div className="rt-container">
-        <div className="rt-hero-contact-content">
+        <div className="rt-hero-about-content">
           <hr className="divider-alt" />
           <h1 className="rt-hero-contact-title">about</h1>
-          <p>I’m a husband, father, son, brother–the identifiers go on, but I always define myself in some familial aspect, at the core.</p>
-          <p>I grew up in California, then our family moved to Japan when I was in middle school. We lived overseas all the way up until I graduated high school.</p>
+          <p>I’m a husband, father, son, brother – the identifiers go on, but I always define myself in some familial aspect, at the core.</p>
 
-          <p>From there, I moved out to the Bay area for school. I spent many years working in various educational settings. In 2006, I met my wife, then we moved back down to San Diego and started a family.</p>
+          <p>Quick rundown: grew up in Cali, lived in Japan for middle through high school, went to college in the Bay area, met my wife in ’06, moved to San Diego to start a family.</p>
 
-          <p>We’re currently just outside the Austin area, and it’s treated the family well. But just as a heads up, we’re on our way to Colorado to explore new sights and experience the next phase of our lives.</p>
+          <p>I spent most of my post-university years working in education. I was also an independent hip-hop artist, but as the family grew, I had to figure out a better career to provide a better life for my fam.</p>
 
-          <p className="rt-hero-subtitle">It’s just a matter of time.</p>
+          <p>We relocated to Austin in 2014 and it’s treated the family well. Here, I learned to code and established a new career. It’s been an amazing and blessed journey.</p>
 
+          <p className="rt-hero-contact-subtitle">Next stop: Colorado! We’re currently figuring out how to transition into this next phase of our lives as a family and I wake up each day, excited to watch the dream unfold.</p>
+
+        </div>
+        <div className="rt-hero-about-facts">
+          <h5 className="rt-work-section-item-title">Current status</h5>
+          <ul class="rt-hero-current-list">
+            <li>
+              <span class="rt-hero-current-category">Writing:</span>
+              <span class="rt-hero-current-pick">Fresh Moon newsletter</span>
+            </li>
+            <li>
+              <span class="rt-hero-current-category">Reading:</span>
+              <span class="rt-hero-current-pick"><em>The Making of a Manager</em> by Julie Zhuo<br /><em>The Motivation Manifesto</em> by Brendan Burchard</span>
+            </li>
+            <li>
+              <span class="rt-hero-current-category">Listening:</span>
+              <span class="rt-hero-current-pick">Khalid, Aesop Rock, Outkast</span>
+            </li>
+            <li>
+              <span class="rt-hero-current-category">Studying:</span>
+              <span class="rt-hero-current-pick"><em>Aspiring to Management II</em> via IBM Leadership Academy. <em>Create Your Own Economy</em> by Bob Proctor</span>
+            </li></ul>
         </div>
       </div>
     </section>

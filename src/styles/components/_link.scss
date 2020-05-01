@@ -1,4 +1,12 @@
 .#{$prefix}-link {
+  &-external {
+    width: 1rem;
+    position: absolute;
+    bottom: 1.15rem;
+    right: 1rem;
+    opacity: .2;
+  }
+  
   &-dark {
     padding: .75rem 1rem;
     border: 1px solid $white;
@@ -6,12 +14,17 @@
     color: $white;
     text-decoration: none;
     font-weight: 600;
+    border-radius: 2rem;
+    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
     
     &:not(:last-child) {
       margin-right: 1rem;
     }
     &:hover {
-      text-decoration: underline;
+      transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+      background: $blue-dark;
+      border-color: $blue-dark;
+      color: $blue-hint;
     }
   }
   
@@ -22,12 +35,17 @@
     color: $purple;
     text-decoration: none;
     font-weight: 600;
+    border-radius: 2rem;
+    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
     
     &:not(:last-child) {
       margin-right: 1rem;
     }
     &:hover {
-      text-decoration: underline;
+      transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+      background: $blue-dark;
+      border-color: $blue-dark;
+      color: $blue-hint;
     }
   }
   
