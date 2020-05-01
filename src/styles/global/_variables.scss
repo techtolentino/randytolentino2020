@@ -1,0 +1,49 @@
+// prefix
+$prefix: 'rt';
+
+// base properties
+$base-font-size: 14px;
+$base-line-height: 1.45;
+$base-font-weight: 400;
+$base-font-family: 'Inter', Arial, Helvetica, sans-serif;
+$base-font-family-serif: 'Playfair Display', serif;
+
+// colors
+$dark: #1C1C1C;
+$white: #FFFFFF;
+$gray: #8B8B8B;
+$light-gray: #EAEAEA;
+$green: #27dbb3;
+$purple: #3f00d9;
+$red: #ff5e62;
+$orange: #fa2b2b;
+$gold: #ffd635;
+
+// widths
+$xs: 24rem;
+$sm: 30rem;
+$md: 48rem;
+$lg: 64rem;
+$xl: 80rem;
+
+// breakpoints
+@mixin breakpoint($point) {
+  @if $point == xl {
+    @media (max-width: 82rem) { @content ; }
+ }
+  @else if $point == lg {
+    @media (max-width: 64rem) { @content ; }
+ }
+   @else if $point == md {
+    @media (max-width: 48rem) { @content ; }
+ }
+  @else if $point == sm {
+    @media (max-width: 30rem)  { @content ; }
+ }
+ @else if $point == xs {
+    @media (max-width: 24rem)  { @content ; }
+ }
+}
+
+// content
+$content-max-width: 34rem;

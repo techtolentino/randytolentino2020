@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: $dark;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+}

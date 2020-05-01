@@ -1,0 +1,83 @@
+
+.#{$prefix}-work {
+  
+  &-section .rt-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-bottom: 4rem;
+  }
+  
+  &-section-title {
+    font-weight: 600;
+    font-size: 2.65rem;
+    margin-bottom: 1rem;
+  }
+  
+  &-img {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid $light-gray;
+  }
+  
+  &-org {
+    padding-bottom: 1rem;
+    display: block;
+  }
+  
+  &-section-item {
+    border: 1px solid #EAEAEA;
+    margin: 0 2rem 2rem 0;
+    width: 100%;
+    max-width: 364px;
+    
+    &-title {
+      margin-bottom: .25rem;
+      font-style: 1.214em;
+    }
+    
+    @include breakpoint(sm) {
+      margin: 0 0 1.5rem 0;
+      max-width: initial;
+    }
+  }
+  
+  &-meta {
+    max-width: 90%;
+    padding: 1rem;
+    min-height: 300px;
+    position: relative;
+    @include breakpoint(sm) {
+      min-height: initial;
+    }
+    
+    &.writing {
+      min-height: 164px;
+    }
+  }
+  
+  &-pub {
+    position: absolute;
+    bottom: 1rem;
+    color: $gray;
+  }
+  
+  &-meta-stack {
+    position: absolute;
+    bottom: 1rem;
+    color: $gray;
+    font-size: .75rem;
+    
+    @include breakpoint(sm) {
+      position: relative;
+      bottom: unset;
+    }
+  }
+  
+  &-meta-label {
+    display: block;
+    padding-bottom: .25rem;
+    font-weight: 600;
+    color: $dark;
+  }
+}

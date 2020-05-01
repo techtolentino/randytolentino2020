@@ -1,0 +1,49 @@
+.#{$prefix} {
+  &-footer {
+    padding: .5rem 0;
+    background: url('../images/bg-banner.svg') center center no-repeat;
+    background-size: cover;
+    color: $white;
+    
+    & .rt-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      @include breakpoint(md) {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+    
+    &-meta {
+      font-size: .75rem;
+      @include breakpoint(md) {
+        margin-bottom: 1rem;
+      }
+    }
+    
+    &-social {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      li a {
+        color: $white;
+        text-decoration: none;
+        padding-left: 1rem;
+        font-size: .75rem;
+        
+        @include breakpoint(md) {
+          padding-left: 0;
+          padding-right: 1rem;
+        }
+      }
+      
+      li a:hover {
+        cursor: pointer;
+        color: $green;
+      }
+    }
+  }
+}

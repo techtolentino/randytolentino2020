@@ -1,0 +1,62 @@
+
+p {margin-bottom: 1rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.653em;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 2rem;
+  
+  @include breakpoint(sm) {
+    font-size: 2.653em;
+  }
+}
+
+h2 {
+  font-size: 3.998em;
+  font-weight: 400;
+  margin-top: 0;
+  @include breakpoint(sm) {
+    font-size: 1.653em;
+  }
+}
+
+h3 {
+  font-size: 2.827em;
+  font-weight: 500;
+  margin-top: 0;
+  @include breakpoint(sm) {
+    font-size: 1.653em;
+  }
+}
+
+h4 {
+  font-size: 1.999em;
+  font-weight: 500;
+  margin-top: 0;
+  @include breakpoint(sm) {
+    font-size: 1.353em;
+  }
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 1.214em;
+  font-weight: 500;
+}
+
+small, .text_small {font-size: 0.875em;}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}

@@ -1,0 +1,14 @@
+.#{$prefix}-card {
+  &-group-list {
+    display: flex;
+  }
+  
+  &-group-list-link {
+    text-decoration: none;
+  }
+  
+  &-group-list-item {
+    padding: 1rem;
+  }
+}
+

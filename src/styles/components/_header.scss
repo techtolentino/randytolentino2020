@@ -1,0 +1,33 @@
+.#{$prefix} {
+  
+  &-header {
+    background: url('../images/bg-banner.svg') center center no-repeat;
+    background-size: cover;
+    
+    & .rt-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
+  &-header-brand {
+    margin-bottom: 0;
+    font-size: 1rem;
+    text-decoration: none;
+    color: $white;
+  }
+  
+  &-header-nav-item {
+    padding: .5rem .75rem;
+    color: $white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    &:hover {
+      color: $green;
+    }
+  }
+  
+    
+}

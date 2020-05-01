@@ -1,0 +1,67 @@
+@mixin title {
+  margin-left: -.15rem;
+  font-size: 6.65rem;
+  
+  @include breakpoint(md) {
+    font-size: 4.653em;
+  }
+}
+
+@mixin container {
+  display: flex;
+  min-height: calc(100vh - 7.375rem);
+  padding-top: 8rem;
+  
+  @include breakpoint(md) {
+    padding-top: 6rem;
+  }
+}
+
+.#{$prefix} {
+  &-hero {
+    background: url('../images/bg.svg') center center no-repeat;
+    background-size: cover;
+    color: $white;
+    
+    & .rt-container {
+      @include container;
+    }
+    
+    &-content {
+      max-width: $sm;
+    }
+    
+    &-title {
+      @include title;
+    }
+    
+    &-subtitle {
+      margin-bottom: 3rem;
+    }
+  }
+  
+  &-hero-work,
+  &-hero-writing,
+  &-hero-contact {
+    background: url('../images/bg-white.svg') center center no-repeat;
+    background-size: cover;
+    
+    & .rt-container {
+      @include container;
+    }
+    
+    &-content {
+      max-width: $sm;
+    }
+    
+    &-title {
+      @include title;
+      color: $dark;
+    }
+    
+    &-subtitle {
+      margin-bottom: 3rem;
+    }
+  }
+
+}

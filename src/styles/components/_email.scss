@@ -1,0 +1,18 @@
+.#{$prefix}-email {
+  display: flex;
+  padding-bottom: 4rem;
+  &-input {
+    border: 1px solid $purple;
+    min-width: 200px;  
+    padding: .5rem;
+  }
+  
+  &-button {
+    background: $purple;
+    color: $white;
+    outline: none;
+    border: none;
+    padding: .75rem;
+  }  
+}
+

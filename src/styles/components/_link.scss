@@ -1,0 +1,35 @@
+.#{$prefix}-link {
+  &-dark {
+    padding: .75rem 1rem;
+    border: 1px solid $white;
+    background: transparent;
+    color: $white;
+    text-decoration: none;
+    font-weight: 600;
+    
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  &-white {
+    padding: .75rem 1rem;
+    border: 1px solid $white;
+    background: $white;
+    color: $purple;
+    text-decoration: none;
+    font-weight: 600;
+    
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+}
+

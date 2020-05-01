@@ -1,0 +1,24 @@
+.text {
+  &-dark {
+    color: $dark !important;
+  }
+  
+  &-white {
+    color: $white !important;
+  }
+  
+  &-green {
+    color: $green !important;
+  }
+  
+  &-link-dark {
+    color: $purple;
+  }
+  
+  &-flip {
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+  }
+}
