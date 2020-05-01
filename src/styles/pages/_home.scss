@@ -34,6 +34,14 @@
     
     &-title {
       @include title;
+      margin-bottom: 1rem;
+    }
+    
+    &-title-lead {
+      font-size: 1.4rem;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+      max-width: 24rem;
     }
     
     &-subtitle {

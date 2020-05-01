@@ -12,7 +12,7 @@ const IndexPage = () => (
         <div className="rt-hero-content">
           <hr className="divider" />
           <h1 className="rt-hero-title">maker</h1>
-          <p>First and foremost, safety and wellness to you and your people.</p>
+          <p className="rt-hero-title-lead">First and foremost—safety, wellness, and health to you and your people.</p>
           <p>Hello hello! 👋</p>
           <p>My name’s Randy Tolentino (@makertolentino).</p>
           <p>I’m a Software Developer & Product Design Lead, currently building enterprise security products at IBM. Outside of work, I focus on thought leadership and self-development as a freelance writer.</p>
