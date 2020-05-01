@@ -13,6 +13,8 @@ import Artifacts from '../images/artifacts.png'
 import LinkOut from '../images/linkout.svg'
 import Disabled from '../images/disabled.svg'
 
+import Resume from '../assets/Randy_Tolentino_-_Professional_Resume_2020.pdf';
+
 const WorkPage = () => (
   <Layout>
     <SEO title="Work" />
@@ -24,6 +26,8 @@ const WorkPage = () => (
           <p>As a Software Developer with a specialized focus on front end technologies, I’ve had the privilege of building products and delivering services to clients around the world.</p>
           <p>In addition, I currently serve as the Product Design Lead on our current project, which gives me the opportunity to help advocate for design and push for design thinking as a strategy to solve our user’s problems.</p>
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
+
+          <a href className="rt-link-outline" href={Resume} download>Download resume ▾</a>
         </div>
       </div>
     </section>

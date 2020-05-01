@@ -49,5 +49,23 @@
     }
   }
   
+  &-outline {
+    padding: .75rem 1rem;
+    border: 1px solid $purple;
+    background: $white;
+    color: $purple;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+    &:hover {
+      transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+      background: $blue-hint;
+      border-color: $blue-hint;
+      color: $blue-dark;
+    }
+  }
+  
 }
 
