@@ -59,11 +59,23 @@
     border-radius: 2rem;
     transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
     
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+    
     &:hover {
       transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
       background: $blue-hint;
       border-color: $blue-hint;
       color: $blue-dark;
+    }
+    
+    @include breakpoint(sm) {
+      display: inline-block;
+      
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
     }
   }
   

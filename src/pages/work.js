@@ -14,6 +14,7 @@ import LinkOut from '../images/linkout.svg'
 import Disabled from '../images/disabled.svg'
 
 import Resume from '../assets/Randy_Tolentino_-_Professional_Resume_2020.pdf';
+import Portfolio from '../assets/Randy_Tolentino_-_Portfolio_of_Experiences_2020.pdf';
 
 const WorkPage = () => (
   <Layout>
@@ -28,6 +29,7 @@ const WorkPage = () => (
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
 
           <a href className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Resume}>View resume ▸</a>
+          <a href className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Portfolio} download>Download portfolio ▾</a>
         </div>
       </div>
     </section>
