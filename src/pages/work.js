@@ -27,7 +27,7 @@ const WorkPage = () => (
           <p>In addition, I currently serve as the Product Design Lead on our current project, which gives me the opportunity to help advocate for design and push for design thinking as a strategy to solve our user’s problems.</p>
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
 
-          <a href className="rt-link-outline" href={Resume} download>Download resume ▾</a>
+          <a href className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Resume}>View resume ▸</a>
         </div>
       </div>
     </section>

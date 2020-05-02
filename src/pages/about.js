@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link } from 'gatsby'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -16,9 +16,9 @@ const AboutPage = () => (
 
           <p>Quick rundown: grew up in Cali, lived in Japan for middle through high school, went to college in the Bay area, met my wife in ’06, moved to San Diego to start a family.</p>
 
-          <p>I spent most of my post-university years working in education. I was also an independent hip-hop artist, but as the family grew, I had to figure out a better career to provide a better life for my fam.</p>
+          <p>I spent most of my post-university years working in education. I was also an independent hip-hop artist, but as the family grew, I had to figure out a real career path that would allow me to provide a better life for my fam.</p>
 
-          <p>We relocated to Austin in 2014 and it’s treated the family well. Here, I learned to code and established a new career. It’s been an amazing and blessed journey.</p>
+          <p>After being accepted into a software engineering bootcamp, we moved to Austin. Here, I learned to code and established a new career. Our experience in Austin has been phenomenal.</p>
 
           <p className="rt-hero-contact-subtitle">Next stop: Colorado! We’re currently figuring out how to transition into this next phase of our lives as a family and I wake up each day, excited to watch the dream unfold.</p>
 
@@ -28,7 +28,7 @@ const AboutPage = () => (
           <ul className="rt-hero-current-list">
             <li>
               <span className="rt-hero-current-category">Writing:</span>
-              <span className="rt-hero-current-pick">Fresh Moon newsletter</span>
+              <span className="rt-hero-current-pick"><Link className="text-link-dark" to="/contact">The Fresh Moon newsletter</Link></span>
             </li>
             <li>
               <span className="rt-hero-current-category">Reading:</span>
@@ -40,7 +40,7 @@ const AboutPage = () => (
             </li>
             <li>
               <span className="rt-hero-current-category">Studying:</span>
-              <span className="rt-hero-current-pick"><em>Aspiring to Management II</em> via IBM Leadership Academy. <em>Create Your Own Economy</em> by Bob Proctor</span>
+              <span className="rt-hero-current-pick"><em>Aspiring to Manage</em> by IBM Academy<br /><em>Create Your Own Economy</em> by Bob Proctor</span>
             </li></ul>
         </div>
       </div>
