@@ -28,8 +28,8 @@ const WorkPage = () => (
           <p>In addition, I currently serve as the Product Design Lead on our current project, which gives me the opportunity to help advocate for design and push for design thinking as a strategy to solve our user’s problems.</p>
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
 
-          <a href className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Resume}>View resume ▸</a>
-          <p><small><em>For a detailed portfolio, please <a hfef="mailto:makertolentino@gmail.com?subject=Please send your portfolio!" target="_blank" rel="noopener noreferrer">message me</a>.</em></small></p>
+          <a className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Resume}>View resume ▸</a>
+          <p><small><em>For a detailed portfolio, please <a className="text-link-dark" href="mailto:makertolentino@gmail.com?subject=Please send your portfolio!" target="_blank" rel="noopener noreferrer">message me</a>.</em></small></p>
         </div>
       </div>
     </section>
