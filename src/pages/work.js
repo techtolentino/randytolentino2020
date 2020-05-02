@@ -14,7 +14,7 @@ import LinkOut from '../images/linkout.svg'
 import Disabled from '../images/disabled.svg'
 
 import Resume from '../assets/Randy_Tolentino_-_Professional_Resume_2020.pdf';
-import Portfolio from '../assets/Randy_Tolentino_-_Portfolio_of_Experiences_2020.pdf';
+
 
 const WorkPage = () => (
   <Layout>
@@ -29,7 +29,7 @@ const WorkPage = () => (
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
 
           <a href className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Resume}>View resume ▸</a>
-          <p><small><em>Detailed portolio available upon request</em></small></p>
+          <p><small><em>For a detailed portfolio, please <a hfef="mailto:makertolentino@gmail.com?subject=Please send your portfolio!" target="_blank" rel="noopener noreferrer">message me</a>.</em></small></p>
         </div>
       </div>
     </section>
@@ -42,7 +42,7 @@ const WorkPage = () => (
           <div className="rt-work-meta">
             <h5 className="rt-work-section-item-title">Data Explorer</h5>
             <span className="rt-work-org"><small><strong>IBM Security</strong></small></span>
-            <p>For the Data Explorer application, I built several client facing features that enables security analysts to perform their jobs. These features inlclude the ability for analysts to toggle and view raw data, along with the ability to export that data in several file formats.</p>
+            <p>For the Data Explorer application, I built several client facing features that enable security analysts to perform their jobs. These features inlclude the ability for analysts to toggle and view raw data, along with the ability to export that data in several file formats.</p>
             <div className="rt-work-meta-stack">React, Redux, NextJS, Sass, microservices</div>
           </div>
           <img className="rt-link-external" src={LinkOut} alt="visit site" />
@@ -119,7 +119,7 @@ const WorkPage = () => (
           <div className="rt-work-meta">
             <h5 className="rt-work-section-item-title">MyIBM Mobile</h5>
             <span className="rt-work-org"><small><strong>IBM Design</strong></small></span>
-            <p>In my very first major project, me and fellow developer had to quickly learn React Native to build a fully functioning native app. Our design, implementation, and user flows inspired multiple product offerings for MyIBM Mobile.</p>
+            <p>In my very first major project, a fellow developer and I had to quickly learn React Native to build a fully functioning native app. Our design, implementation, and user flows inspired multiple product offerings for MyIBM Mobile.</p>
             <div className="rt-work-meta-stack">React Native, HTML, CSS, Javascript</div>
           </div>
           <img className="rt-link-external" src={Disabled} alt="link is disabled" />
