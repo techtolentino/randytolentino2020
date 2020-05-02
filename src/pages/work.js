@@ -29,7 +29,7 @@ const WorkPage = () => (
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
 
           <a href className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Resume}>View resume ▸</a>
-          <a href className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Portfolio} download>Download portfolio ▾</a>
+          <p><small><em>Detailed portolio available upon request</em></small></p>
         </div>
       </div>
     </section>
