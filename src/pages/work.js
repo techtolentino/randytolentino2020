@@ -25,7 +25,7 @@ const WorkPage = () => (
           <hr className="divider-alt" />
           <h1 className="rt-hero-work-title">work</h1>
           <p>As a Software Developer with a specialized focus on front end technologies, I’ve had the privilege of building products and delivering services to clients around the world.</p>
-          <p>In addition, I currently serve as the Product Design Lead on our current project, which gives me the opportunity to help advocate for design and push for design thinking as a strategy to solve our user’s problems.</p>
+          <p>In addition, I serve as the Product Design Lead on our current project, which gives me the opportunity to help advocate for design and push for design thinking as a strategy to solve our user’s problems.</p>
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
 
           <a className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Resume}>View resume ▸</a>
