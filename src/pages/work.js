@@ -38,7 +38,6 @@ const WorkPage = () => (
             rel="noopener noreferrer"
             href={Resume}
             onClick={e => {
-              e.preventDefault()
               trackCustomEvent({
                 category: "View Resume",
                 action: "Click",
@@ -51,7 +50,6 @@ const WorkPage = () => (
             href={Portfolio}
             download
             onClick={e => {
-              e.preventDefault()
               trackCustomEvent({
                 category: "Download Portfolio of Experiences",
                 action: "Click",
