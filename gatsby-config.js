@@ -45,6 +45,12 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-53693705-1",
+      },
+    },
+    {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
         endpoint: 'https://randytolentino.us4.list-manage.com/subscribe/post?u=f8599de6157bf645af19716a8&amp;id=e684e1ba78',

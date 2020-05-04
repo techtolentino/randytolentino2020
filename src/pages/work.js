@@ -16,6 +16,9 @@ import Disabled from '../images/disabled.svg'
 import Resume from '../assets/Randy_Tolentino_-_Professional_Resume_2020.pdf';
 import Portfolio from '../assets/Randy_Tolentino_-_Portfolio_of_Experiences_2020.pdf';
 
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
+
+
 
 const WorkPage = () => (
   <Layout>
@@ -29,8 +32,33 @@ const WorkPage = () => (
           <p>In addition, I serve as the Product Design Lead on our current project, which gives me the opportunity to help advocate for design and push for design thinking as a strategy to solve our user’s problems.</p>
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
 
-          <a className="rt-link-outline" target="_blank" rel="noopener noreferrer" href={Resume}>View resume ▸</a>
-          <a className="rt-link-outline" href={Portfolio} download>Download my portfolio ▾</a>
+          <a
+            className="rt-link-outline"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={Resume}
+            onClick={e => {
+              e.preventDefault()
+              trackCustomEvent({
+                category: "View Resume",
+                action: "Click",
+                label: "Work Page - View Resume",
+              })
+            }}
+          >View resume ▸</a>
+          <a
+            className="rt-link-outline"
+            href={Portfolio}
+            download
+            onClick={e => {
+              e.preventDefault()
+              trackCustomEvent({
+                category: "Download Portfolio of Experiences",
+                action: "Click",
+                label: "Work Page - Download Portfolio of Experiences",
+              })
+            }}
+          >Download my portfolio ▾</a>
 
         </div>
       </div>
