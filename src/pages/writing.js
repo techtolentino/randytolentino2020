@@ -14,6 +14,7 @@ import Happiness from '../images/happiness.jpeg'
 import Motivation from '../images/motivation.png'
 import Wfc from '../images/wfc.png'
 import Protect from '../images/protect.png'
+import Rebrand from '../images/rebrand.png'
 import LinkOut from '../images/linkout.svg'
 
 const WritingPage = () => (
@@ -35,6 +36,19 @@ const WritingPage = () => (
 
     <section className="rt-work-section">
       <div className="rt-container">
+        <a href="https://medium.com/better-marketing/how-to-design-your-own-rebrand-for-free-fcd1d5b22977" target="_blank" rel="noopener noreferrer" className="rt-work-section-item">
+          <img className="rt-work-img" src={Rebrand} alt="Screen capture of Data Explorer on IBM Cloud Pak for Security" />
+          <div className="rt-work-meta writing">
+            <h5 className="rt-work-section-item-title">How to Design Your Own Rebrand for Free</h5>
+            <div className="rt-work-pub">
+              <span className="rt-work-pub-label">Better Marketing</span>
+              <span className="rt-work-pub-time">7 min read</span>
+              <span className="rt-work-pub-tags">career</span>
+            </div>
+          </div>
+          <img className="rt-link-external" src={LinkOut} alt="visit site" />
+        </a>
+
         <a href="https://medium.com/home-sweet-home/protecting-our-childrens-mental-health-in-a-time-of-chaos-c7748680ef7e" target="_blank" rel="noopener noreferrer" className="rt-work-section-item">
           <img className="rt-work-img" src={Protect} alt="Screen capture of Data Explorer on IBM Cloud Pak for Security" />
           <div className="rt-work-meta writing">
