@@ -45,7 +45,7 @@ const WorkPage = () => (
               })
             }}
           >View resume ▸</a>
-          <a
+          {/* <a
             className="rt-link-outline"
             href={Portfolio}
             download
@@ -56,7 +56,7 @@ const WorkPage = () => (
                 label: "Work Page - Download Portfolio of Experiences",
               })
             }}
-          >Download my portfolio ▾</a>
+          >Download my portfolio ▾</a> */}
 
         </div>
       </div>
