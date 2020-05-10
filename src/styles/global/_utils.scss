@@ -14,6 +14,10 @@
   &-link-dark {
     text-decoration: none;
     color: $purple;
+    
+    &:hover {
+      text-decoration: underline;
+    }
   }
   
   &-flip {

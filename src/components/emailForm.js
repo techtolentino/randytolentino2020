@@ -24,8 +24,6 @@ const EmailListForm = ({ title, description }) => {
 
   return (
     <form className="rt-block-signup-form" onSubmit={handleSubmit}>
-      <p className="rt-block-signup-form-description">{description}</p>
-      <p>Last thing, you can also sign up for my monthly newsletter if you’d like. I send my subscribers an email of stories on the first Monday of the month.</p>
       <div className="rt-email">
         <input
           className="rt-email-input"
