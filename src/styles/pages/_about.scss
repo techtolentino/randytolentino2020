@@ -1,0 +1,28 @@
+.#{$prefix}-about {
+  &-content {
+    max-width: $sm;
+  }
+  
+  &-gallery {
+    margin-bottom: 4rem;
+  }
+  
+  &-gallery-row {
+    display: flex;
+    @include breakpoint(md) {
+      flex-direction: column;
+    }
+  }
+  
+  &-gallery-img {
+    width: 50%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    max-width: $sm;
+    @include breakpoint(md) {
+      width: 100%;
+      max-width: initial;
+    }
+  }
+}

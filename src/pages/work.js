@@ -13,10 +13,10 @@ import Artifacts from '../images/artifacts.png'
 import LinkOut from '../images/linkout.svg'
 import Disabled from '../images/disabled.svg'
 
-import Resume from '../assets/Randy_Tolentino_-_Professional_Resume_2020.pdf';
-import Portfolio from '../assets/Randy_Tolentino_-_Portfolio_of_Experiences_2020.pdf';
+// import Resume from '../assets/Randy_Tolentino_-_Professional_Resume_2020.pdf';
+// import Portfolio from '../assets/Randy_Tolentino_-_Portfolio_of_Experiences_2020.pdf';
 
-import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
+// import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 
 
 
