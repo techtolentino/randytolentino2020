@@ -18,7 +18,6 @@ class Header extends Component {
   }
 
   closeMenu = () => {
-    console.log('closeMenus')
     this.setState({ menuActiveClass: '' })
   }
 
