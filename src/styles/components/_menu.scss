@@ -26,16 +26,23 @@
   }
 
 }
-  .hamburger:hover,
-  .hamburger:focus {
-    outline: none;
+
+.hamburger:hover,
+.hamburger:focus {
+  outline: none;
+}
+.hamburger.is-active:hover {
+  outline: none;
+}
+
+.hamburger.is-active {
+  .hamburger-inner::after {
+    background-color: $white;
   }
-  .hamburger.is-active:hover {
-    outline: none;
-  }
+}
 
 .hamburger-box {
-  width: 2rem;
+  width: 1.5rem;
   height: 8px;
   display: block;
   position: relative; }
@@ -53,10 +60,14 @@
     transition-duration: 0.15s;
     transition-timing-function: ease; }
     
-    .hamburger-inner,
-    .hamburger-inner::before,
+    .hamburger-inner{
+      background-color: $white;
+    }
+    .hamburger-inner::before{
+      background-color: rgba(196, 255, 237, 0.8);
+    }
     .hamburger-inner::after{
-      background-color:$white;
+      background-color:#7dcfff;
     }
     
   .hamburger-inner::before, .hamburger-inner::after {
