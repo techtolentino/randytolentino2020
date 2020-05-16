@@ -113,7 +113,7 @@ const AboutPage = () => (
         </div>
 
         <div href="https://medium.com/@makertolentino/why-am-i-still-at-work-23014ebfef4d" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
-          <img className="rt-work-img" src={Bench1} alt="Adapted photo of cruise ship" />
+          <img className="rt-work-img" src={Bench1} alt="Bench from the edge perspective" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">The 25 bench (edge)</h5>
             <p className="rt-about-extra-meta">
@@ -133,7 +133,7 @@ const AboutPage = () => (
         </div>
 
         <div href="https://medium.com/@makertolentino/the-happiness-metric-sharing-how-you-feel-in-team-retrospectives-a5fd8fceda0" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
-          <img className="rt-work-img" src={EndStand1} alt="A cropped photo of a work team standing in a hallway" />
+          <img className="rt-work-img" src={EndStand1} alt="Bookshelf in progress, made from wood" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">Bookshelf (commit)</h5>
             <p className="rt-about-extra-meta">
@@ -142,7 +142,7 @@ const AboutPage = () => (
         </div>
 
         <div href="https://medium.com/@makertolentino/you-become-them-without-knowing-f543087a295e" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
-          <img className="rt-work-img" src={EndStand} alt="Photo of the night sky" />
+          <img className="rt-work-img" src={EndStand} alt="A pair of end tables" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">Hello world end tables</h5>
             <p className="rt-about-extra-meta">

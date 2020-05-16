@@ -1,21 +1,48 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React, { Component } from "react"
 import "../styles/index.scss"
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const Layout = ({ children }) => {
-  return (
-    <>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </>
-  )
-}
+class Layout extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visibleClass: '',
+    }
+  }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  componentDidMount() {
+    window.onscroll = () => this.handleScroll()
+  }
+
+  handleScroll() {
+    console.log('scrolling')
+    if (document.documentElement.scrollTop > 600) {
+      this.setState({ visibleClass: 'is-visible' });
+    } else {
+      this.setState({ visibleClass: '' })
+    }
+  }
+
+  scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+
+
+  render() {
+    return (
+      <>
+        <Header />
+        <main>{this.props.children}</main>
+        <Footer />
+        <button className={`rt-page-scroll-up ${this.state.visibleClass}`} onClick={this.scrollToTop}>↑</button>
+      </>
+    )
+  }
 }
 
 export default Layout

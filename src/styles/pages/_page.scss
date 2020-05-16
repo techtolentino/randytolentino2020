@@ -1,3 +1,20 @@
-.#{$prefix} {
-
+.#{$prefix}-page {
+  &-scroll-up.is-visible {
+    position: fixed;
+    bottom: 1.5rem;
+    right: .75rem;
+    background: rgba(58, 108, 240, 0.5);
+    color: #FFFFFF;
+    padding: .35rem .45rem;
+    border: none;
+    
+    &:hover {
+      cursor: pointer;
+    }
+    
+    &:focus,
+    &:active {
+      outline: none;
+    }
+  }
 }

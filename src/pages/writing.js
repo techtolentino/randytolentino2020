@@ -95,7 +95,7 @@ const WritingPage = () => (
         </a>
 
         <a href="https://medium.com/@makertolentino/why-am-i-still-at-work-23014ebfef4d" target="_blank" rel="noopener noreferrer" className="rt-work-section-item">
-          <img className="rt-work-img" src={Wfc} alt="Adapted photo of cruise ship" />
+          <img className="rt-work-img" src={Wfc} alt="Cruise ship" />
           <div className="rt-work-meta writing">
             <h5 className="rt-work-section-item-title">Why Am I Still At Work?</h5>
             <div className="rt-work-pub">
@@ -121,7 +121,7 @@ const WritingPage = () => (
         </a>
 
         <a href="https://medium.com/@makertolentino/the-happiness-metric-sharing-how-you-feel-in-team-retrospectives-a5fd8fceda0" target="_blank" rel="noopener noreferrer" className="rt-work-section-item">
-          <img className="rt-work-img" src={Happiness} alt="A cropped photo of a work team standing in a hallway" />
+          <img className="rt-work-img" src={Happiness} alt="A work team standing in a hallway" />
           <div className="rt-work-meta writing">
             <h5 className="rt-work-section-item-title">The Happiness Metric—Sharing How You Feel in Team Retrospectives</h5>
             <div className="rt-work-pub">
@@ -134,7 +134,7 @@ const WritingPage = () => (
         </a>
 
         <a href="https://medium.com/@makertolentino/you-become-them-without-knowing-f543087a295e" target="_blank" rel="noopener noreferrer" className="rt-work-section-item">
-          <img className="rt-work-img" src={Become} alt="Photo of the night sky" />
+          <img className="rt-work-img" src={Become} alt="the night sky" />
           <div className="rt-work-meta writing">
             <h5 className="rt-work-section-item-title">You Become Them Without Knowing</h5>
             <div className="rt-work-pub">
