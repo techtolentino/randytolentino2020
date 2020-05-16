@@ -31,7 +31,11 @@ const WritingPage = () => (
 
           <p>Through personal storytelling, my goal is to help every day people like you and me, discover the hidden qualities in ourselves, so that we can have a positive impact on those around us and make the best of this journey, collectively.</p>
 
-          <p className="rt-hero-work-subtitle">My writing has been published in some awesome publications such as Smashing Magazine, The Startup, and Honeypot.io.</p>
+          <p>Nothing I write is for me. This is all for y’all. Reminding myself of that <em>there’s greater audience</em> out there, inspires me to dedicate endless hours towards writing.</p>
+
+          <p>It’s what I love to do.</p>
+
+          <p className="rt-hero-work-subtitle">My work has found its way into awesome publications such as Smashing Magazine, The Startup, Honeypot.io, and Better Marketing.</p>
         </div>
       </div>
     </section>

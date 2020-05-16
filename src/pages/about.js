@@ -10,8 +10,6 @@ import Desk1 from "../images/desk_1.jpg"
 import EndStand1 from "../images/endstand1.jpg"
 import EndStand from "../images/endstand.jpg"
 import GMM2 from "../images/gmm_2.png"
-import GMM3 from "../images/gmm_3.png"
-import GMM4 from "../images/gmm_4.png"
 import GMM1 from "../images/gmm.jpg"
 import HandSand from "../images/handsand.jpg"
 import Hoodie0 from "../images/hoodie_0.jpg"
@@ -53,7 +51,7 @@ const AboutPage = () => (
             </li>
             <li>
               <span className="rt-hero-current-category">Listening:</span>
-              <span className="rt-hero-current-pick">Lennon, Stella, Khalid, Billie Eilish</span>
+              <span className="rt-hero-current-pick">Lennon Stella, Khalid, Billie Eilish</span>
             </li>
             <li>
               <span className="rt-hero-current-category">Studying:</span>
