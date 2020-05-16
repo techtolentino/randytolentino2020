@@ -48,7 +48,7 @@ const WritingPage = () => (
             <h5 className="rt-work-section-item-title">What’s Your Care Amount?</h5>
             <div className="rt-work-pub">
               <span className="rt-work-pub-label">.cult by Honeypot.io</span>
-              <span className="rt-work-pub-time">4 min read</span>
+              <span className="rt-work-pub-time">5 min read</span>
               <span className="rt-work-pub-tags">team, communication</span>
             </div>
           </div>
@@ -61,7 +61,7 @@ const WritingPage = () => (
             <h5 className="rt-work-section-item-title">Take My Monitor</h5>
             <div className="rt-work-pub">
               <span className="rt-work-pub-label">.cult by Honeypot.io</span>
-              <span className="rt-work-pub-time">5 min read</span>
+              <span className="rt-work-pub-time">8 min read</span>
               <span className="rt-work-pub-tags">team, career</span>
             </div>
           </div>
