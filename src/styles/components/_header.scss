@@ -8,6 +8,12 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      
+      @include breakpoint(md) {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
     }
   }
   
@@ -18,13 +24,13 @@
     color: $white;
     @include breakpoint(md) {
       font-size: .875rem;
-      padding: .5rem .5rem .5rem 0;
+      padding: .5rem .5rem 1rem 0;
     }
   }
   
   &-header-nav {
     @include breakpoint(md) {
-      display: none;
+      // display: none;
     }
   }
   
@@ -34,6 +40,10 @@
     text-decoration: none;
     text-transform: uppercase;
     
+    &:first-child {
+      padding-left: 0;
+    }
+    
     &:hover {
       text-decoration: underline;
     }
@@ -41,28 +51,6 @@
     @include breakpoint(md) {
       font-size: .75rem;
     }
-  }
-  
-  &-header-nav-mobile{
-    display: none;
-    transition: .35s;
-  }
-  
-  &-header-nav-mobile.is-active {
-    display: flex;
-    background: $dark;
-    padding: .5rem 1rem;
-    transition: .35s;
-    
-    & .rt-header-nav-item {
-      transition: opacity .25s ease-in-out;
-      color: $white;
-      font-size: .75rem;
-      font-weight: 400;
-      display: block;
-    }
-    
-    
   }
     
 }
