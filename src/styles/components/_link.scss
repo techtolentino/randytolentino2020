@@ -41,7 +41,7 @@
     transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
     
     &:not(:last-child) {
-      margin-right: 1rem;
+      margin-right: .5rem;
     }
     &:hover {
       transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
