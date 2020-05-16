@@ -1,4 +1,7 @@
 .#{$prefix}-page {
+  &-scroll-up {
+    display: none;
+  }
   &-scroll-up.is-visible {
     position: fixed;
     bottom: 1.5rem;
@@ -7,6 +10,7 @@
     color: #FFFFFF;
     padding: .35rem .45rem;
     border: none;
+    display: block;
     
     &:hover {
       cursor: pointer;
