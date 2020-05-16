@@ -25,4 +25,16 @@
       max-width: initial;
     }
   }
+  
+  &-extra-intro {
+    max-width: $sm;
+  }
+  
+  &-extra-meta {
+    position: absolute;
+    bottom: 1rem;
+    margin-bottom: 0;
+    font-size: .75rem;
+    color: $gray;
+  }
 }
