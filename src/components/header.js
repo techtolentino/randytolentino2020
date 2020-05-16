@@ -8,7 +8,7 @@ class Header extends Component {
       <div className="header-container">
         <header className="rt-header" >
           <div className="rt-container">
-            <Link className="rt-header-brand" to="/">Randy Tolentino</Link>
+            <Link className="rt-header-brand" to="/">R.</Link>
 
             <nav className="rt-header-nav">
               <Link className="rt-header-nav-item" to="/about">about</Link>

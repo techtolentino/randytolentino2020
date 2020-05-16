@@ -4,15 +4,21 @@
     background: url('../images/bg-banner.svg') center center no-repeat;
     background-size: cover;
     
+    @include breakpoint(md) {
+      position: fixed;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      box-shadow: 0 -.25rem 1.5rem $dark;
+    }
+    
     & .rt-container {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      
       @include breakpoint(md) {
-        flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
+        padding: 0 1rem;
       }
     }
   }
@@ -23,8 +29,10 @@
     text-decoration: none;
     color: $white;
     @include breakpoint(md) {
-      font-size: .875rem;
-      padding: .5rem .5rem 1rem 0;
+      font-size: .75rem;
+      display: block;
+      padding: 1rem;
+      margin-right: 1rem;
     }
   }
   
@@ -40,16 +48,13 @@
     text-decoration: none;
     text-transform: uppercase;
     
-    &:first-child {
-      padding-left: 0;
-    }
-    
     &:hover {
       text-decoration: underline;
     }
     
     @include breakpoint(md) {
       font-size: .75rem;
+      padding: 1rem;
     }
   }
     
