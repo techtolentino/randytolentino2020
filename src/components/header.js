@@ -23,7 +23,7 @@ class Header extends Component {
 
   render() {
     return (
-      <>
+      <div className="header-container">
         <header className="rt-header" >
           <div className="rt-container">
             <Link className="rt-header-brand" to="/">Randy Tolentino</Link>
@@ -46,7 +46,7 @@ class Header extends Component {
           <a className="rt-header-nav-item" onClick={this.closemenu} href="/writing">writing</a>
           <a className="rt-header-nav-item" onClick={this.closemenu} href="/contact">contact</a>
         </aside>
-      </>
+      </div>
     )
   }
 }
