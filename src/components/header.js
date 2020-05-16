@@ -17,6 +17,11 @@ class Header extends Component {
     }
   }
 
+  closeMenu = () => {
+    console.log('closeMenus')
+    this.setState({ menuActiveClass: '' })
+  }
+
   render() {
     return (
       <>
@@ -37,10 +42,10 @@ class Header extends Component {
           </div>
         </header>
         <aside className={`rt-header-nav-mobile ${this.state.menuActiveClass}`}>
-          <Link className="rt-header-nav-item" to="/about">about</Link>
-          <Link className="rt-header-nav-item" to="/work">work</Link>
-          <Link className="rt-header-nav-item" to="/writing">writing</Link>
-          <Link className="rt-header-nav-item" to="/contact">contact</Link>
+          <a className="rt-header-nav-item" onClick={this.closemenu} href="/about">about</a>
+          <a className="rt-header-nav-item" onClick={this.closemenu} href="/work">work</a>
+          <a className="rt-header-nav-item" onClick={this.closemenu} href="/writing">writing</a>
+          <a className="rt-header-nav-item" onClick={this.closemenu} href="/contact">contact</a>
         </aside>
       </>
     )
