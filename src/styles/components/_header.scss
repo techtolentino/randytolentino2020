@@ -44,33 +44,21 @@
   }
   
   &-header-nav-mobile{
-    opacity: 0;
-    transition: opacity .25s ease-in-out;
-    
-    & .rt-header-nav-item {
-      display: none;
-    }
+    display: none;
+    transition: .35s;
   }
   
   &-header-nav-mobile.is-active {
-    display: block;
-    position: absolute;
-    padding: 4rem 0;
-    right: 0;
+    display: flex;
     background: $dark;
-    width: 100%;
-    transition: opacity .25s ease-in-out;
-    opacity: 1;
-    box-shadow: 0 0.5rem 1rem #9E9E9E;
-
+    padding: .5rem 1rem;
+    transition: .35s;
     
     & .rt-header-nav-item {
+      transition: opacity .25s ease-in-out;
       color: $white;
-      display: block;
-      font-size: 2.35rem;
-      padding-left: 2rem;
-      text-transform: inherit;
-      font-weight: 600;
+      font-size: .75rem;
+      font-weight: 400;
       display: block;
     }
     
