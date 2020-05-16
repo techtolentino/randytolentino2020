@@ -31,7 +31,7 @@ const WorkPage = () => (
           <p>As a Product Design Lead, I work with dev and design to ensure that we deliver the best possible experiences for our users.</p>
           <p>On the technical side as a developer,  with a specialized focus on front end and design, I’ve had the privilege of building products and delivering services to clients around the world.</p>
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
-          <p><em><small>To see a copy of my professional resume and and an updated portfolio of experiences, please <a className="text-link-dark" href="mailto:makertolentino@gmail.com" target="_blank" rel="noopener noreferrer">send me a message</a>.</small></em></p>
+          <p><em><small>To view my resume and updated portfolio of experiences, please <a className="text-link-dark" href="mailto:makertolentino@gmail.com" target="_blank" rel="noopener noreferrer">send me a message</a>.</small></em></p>
 
         </div>
       </div>
