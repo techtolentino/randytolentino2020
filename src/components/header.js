@@ -9,6 +9,16 @@ class Header extends Component {
     }
   }
 
+  componentDidMount() {
+    window.onscroll = () => this._handleScroll()
+  }
+
+  _handleScroll() {
+    if (document.documentElement.scrollTop > 200) {
+      this.setState({ menuActiveClass: '' });
+    }
+  }
+
   triggerMenu = () => {
     if (this.state.menuActiveClass === '') {
       this.setState({ menuActiveClass: 'is-active' })
