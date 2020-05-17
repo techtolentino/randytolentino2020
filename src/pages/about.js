@@ -27,7 +27,7 @@ const AboutPage = () => (
           <h1 className="rt-hero-contact-title">about</h1>
           <p>I’m a husband, father, son, brother – the identifiers go on, but I always define myself in some familial aspect, at the core.</p>
 
-          <p>Quick rundown: grew up in Cali, lived in Japan for middle through high school, went to college in the Bay area, met my wife in ’06 and eventually we moved to San Diego to start a family.</p>
+          <p>Quick rundown: grew up in Cali, lived in Japan between middle and high school years, attended college in the Bay area, met my wife in ’06 and eventually we moved to San Diego to start a family.</p>
 
           <p>I spent most of my post-university years working in education. I was an <a href="https://medium.com/codebuddies/i-used-to-write-rhymes-now-i-write-software-bf5d2b27578" target="_blank" rel="noopener noreferrer" className="text-link-dark">independent hip-hop artist</a>, but as the family grew, I had to find a real career that would allow me to give them the life they deserved.</p>
 
