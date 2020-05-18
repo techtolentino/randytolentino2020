@@ -28,7 +28,7 @@ const WorkPage = () => (
         <div className="rt-hero-work-content">
           <hr className="divider-alt" />
           <h1 className="rt-hero-work-title">work</h1>
-          <p>I’m one of the lucky ones. I say that because truly believe the most fascinating and influential aspects technology are found at the intersection of design and engineering.</p>
+          <p>I’m one of the lucky ones. I say that because I truly believe the most fascinating and influential aspects of technology are found at the intersection of design and engineering.</p>
           <p>That's where I live.</p>
           <p>As a Product Design Lead, I work with dev and design to ensure that we deliver the best possible experiences for our users.</p>
           <p>On the technical side as a Software Developer  with a specialized focus on front end technologies, I’ve had the privilege of building products and delivering services to clients around the world.</p>
