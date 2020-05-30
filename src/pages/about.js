@@ -47,15 +47,15 @@ const AboutPage = () => (
             </li>
             <li>
               <span className="rt-hero-current-category">Reading:</span>
-              <span className="rt-hero-current-pick"><em>The Making of a Manager</em> by Julie Zhuo<br /><em>The Motivation Manifesto</em> by Brendan Burchard</span>
+              <span className="rt-hero-current-pick"><em>The Making of a Manager</em> by Julie Zhuo<br /><em>Rich Dad, Poor Dad</em> by Robert Kiyosaki</span>
             </li>
             <li>
               <span className="rt-hero-current-category">Listening:</span>
-              <span className="rt-hero-current-pick">Lennon Stella, Khalid, Billie Eilish</span>
+              <span className="rt-hero-current-pick">Pretty Lights, Lennon Stella, Khalid</span>
             </li>
             <li>
               <span className="rt-hero-current-category">Studying:</span>
-              <span className="rt-hero-current-pick"><em>Aspiring to Manage</em> by IBM Academy<br /><em>Stocks</em> by Ricky Gutierrez</span>
+              <span className="rt-hero-current-pick"><em>Investment strategies </em> by Ricky Gutierrez</span>
             </li></ul>
         </div>
       </div>
