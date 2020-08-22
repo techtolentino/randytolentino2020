@@ -32,7 +32,7 @@ const AboutPage = () => (
     <section className="rt-ills-section">
       <div className="rt-container">
 
-      <div href="https://www.linkedin.com/pulse/success-mine-randy-tolentino/" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
+      <div>
           <img className="rt-work-img" src={PuffCoat} alt="An illustration of minimal mountains" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">The puff coat years</h5>
@@ -42,7 +42,7 @@ const AboutPage = () => (
           </div>
         </div>
 
-        <div href="https://www.linkedin.com/pulse/success-mine-randy-tolentino/" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
+        <div>
           <img className="rt-work-img" src={Desk} alt="A sketch of me working at my desk" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">Desk</h5>
@@ -52,7 +52,7 @@ const AboutPage = () => (
           </div>
         </div>
 
-        <div href="https://medium.com/@makertolentino/why-am-i-still-at-work-23014ebfef4d" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
+        <div>
           <img className="rt-work-img" src={Book} alt="An illustration of a colorful stack of books" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">You are the book</h5>
@@ -62,7 +62,7 @@ const AboutPage = () => (
           </div>
         </div>
 
-        <div href="https://medium.com/the-ascent/whos-your-favorite-motivational-speaker-49cb7cafe585" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
+        <div>
           <img className="rt-work-img" src={CareAmount} alt="Hand gesturing levels in the air" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">Care amount</h5>
@@ -72,7 +72,7 @@ const AboutPage = () => (
           </div>
         </div>
 
-        <div href="https://medium.com/@makertolentino/the-happiness-metric-sharing-how-you-feel-in-team-retrospectives-a5fd8fceda0" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
+        <div>
           <img className="rt-work-img" src={MentalHealth} alt="An illustration of a child awake at night" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">Mental health</h5>
@@ -81,17 +81,17 @@ const AboutPage = () => (
           </div>
         </div>
 
-        <div href="https://medium.com/@makertolentino/you-become-them-without-knowing-f543087a295e" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
+        <div>
           <img className="rt-work-img" src={Motivational} alt="Illustration of me studying and watching Youtube on the couch" />
           <div className="rt-work-meta extra">
-            <h5 className="rt-work-section-item-title">Favorite motivational speaker</h5>
+            <h5 className="rt-work-section-item-title">Favorite speaker</h5>
             <p className="rt-about-extra-meta">
               Published on Medium, made with ink + Sketch
             </p>
           </div>
         </div>
 
-        <div href="https://medium.com/@makertolentino/the-7-relevant-conversations-to-have-when-interviewing-in-2020-210689f0238b" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
+        <div>
           <img className="rt-work-img" src={Imposter} alt="An illustration of a man with a hat, staring into a computer" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">Imposter syndrome</h5>
@@ -102,7 +102,7 @@ const AboutPage = () => (
         </div>
 
 
-        <div href="https://www.smashingmagazine.com/2019/08/creating-authentic-human-connections-remote-team/" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
+        <div>
           <img className="rt-work-img" src={Walk} alt="An illustration of a man walking in the cold" />
           <div className="rt-work-meta extra">
             <h5 className="rt-work-section-item-title">The walk</h5>
