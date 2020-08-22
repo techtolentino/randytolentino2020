@@ -13,6 +13,10 @@
       flex-direction: column;
     }
   }
+
+  &-item {
+    border: 1px solid $light-gray;
+  }
   
   &-gallery-img {
     width: 50%;
