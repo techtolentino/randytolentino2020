@@ -35,7 +35,7 @@ const AboutPage = () => (
       <div href="https://www.linkedin.com/pulse/success-mine-randy-tolentino/" target="_blank" rel="noopener noreferrer" className="rt-work-section-item inactive">
           <img className="rt-work-img" src={PuffCoat} alt="An illustration of minimal mountains" />
           <div className="rt-work-meta extra">
-            <h5 className="rt-work-section-item-title">the puff coat years</h5>
+            <h5 className="rt-work-section-item-title">The puff coat years</h5>
             <p className="rt-about-extra-meta">
               Email newsletter hero, made in sketch
             </p>
