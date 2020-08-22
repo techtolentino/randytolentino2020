@@ -14,6 +14,7 @@ class Header extends Component {
               <Link className="rt-header-nav-item" to="/about">about</Link>
               <Link className="rt-header-nav-item" to="/work">work</Link>
               <Link className="rt-header-nav-item" to="/writing">writing</Link>
+              <Link className="rt-header-nav-item" to="/ills">ills</Link>
               <Link className="rt-header-nav-item" to="/contact">contact</Link>
             </nav>
           </div>

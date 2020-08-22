@@ -43,19 +43,19 @@ const AboutPage = () => (
           <ul className="rt-hero-current-list">
             <li>
               <span className="rt-hero-current-category">Writing:</span>
-              <span className="rt-hero-current-pick"><Link className="text-link-dark" to="/contact">The Fresh Moon newsletter</Link></span>
+              <span className="rt-hero-current-pick"><Link className="text-link-dark" to="/contact">The Puff Coat Chapters</Link></span>
             </li>
             <li>
               <span className="rt-hero-current-category">Reading:</span>
-              <span className="rt-hero-current-pick"><em>The Making of a Manager</em> by Julie Zhuo<br /><em>Rich Dad, Poor Dad</em> by Robert Kiyosaki</span>
+              <span className="rt-hero-current-pick"><em>The PowerX Strategy</em> by Markus Heitkoetter</span>
             </li>
             <li>
               <span className="rt-hero-current-category">Listening:</span>
-              <span className="rt-hero-current-pick">Pretty Lights, Lennon Stella, Khalid</span>
+              <span className="rt-hero-current-pick">Ed Carlsen, Aesop Rock</span>
             </li>
             <li>
               <span className="rt-hero-current-category">Studying:</span>
-              <span className="rt-hero-current-pick"><em>Investment strategies </em> by Ricky Gutierrez</span>
+              <span className="rt-hero-current-pick">Ableton Live 10</span>
             </li></ul>
         </div>
       </div>
