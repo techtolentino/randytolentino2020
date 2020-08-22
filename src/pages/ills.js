@@ -22,9 +22,9 @@ const AboutPage = () => (
           <h1 className="rt-hero-contact-title">ills</h1>
           <p>Growing up I was always fascinated with graffiti and any form of art that orginated from street culture. I remember sitting in the backseat of the family van, quietly admiring tags, murals and pieces that I‘d see while we drove around San Diego.</p>
           <p>I was one of those kids in high school who kept a notebook of pieces, and would spend more time practicing lettering, arrows, and characters, than I would studying algebra.</p>
-          <p>That passion of art and appreciating aesthetics within design never escaped me. To this day, I find myself trying to connect with the art-side of the brain.</p>
-          <p>And while I have so much to learn when it comes the visuals, the following are just a few samples of some ideas I've used in blogs or what not.</p>
-          <p>Appreciate the the look. <span role="img" aria-label="prayer emoji">🙏</span></p>
+          <p>More recently, I‘ve tried to reconnect with that passion of appreciating the same aesthetics within design. I‘d argue that this love for art never escaped me. And this is why I keep designers, illustrators, and makers in the network.</p>
+          <p>I know I have so much to learn when it comes to visuals and modern day tooling. Still, it‘s something I love &mdash; and so the following pieces are just a few samples of some ideas I've used in blogs or what not.</p>
+          <p>Nonetheless, I appreciate the the look. <span role="img" aria-label="prayer emoji">🙏</span></p>
         </div>
       </div>
     </section>
