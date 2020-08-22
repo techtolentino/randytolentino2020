@@ -16,7 +16,6 @@ class Layout extends Component {
   }
 
   handleScroll() {
-    console.log('scrolling')
     if (document.documentElement.scrollTop > 600) {
       this.setState({ visibleClass: 'is-visible' });
     } else {
