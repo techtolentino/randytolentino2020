@@ -30,8 +30,7 @@ const WorkPage = () => (
           <h1 className="rt-hero-work-title">work</h1>
           <p>I’m one of the lucky ones. I say that because I truly believe the most fascinating and influential aspects of technology are found at the intersection of design and engineering.</p>
           <p>That's where I live.</p>
-          <p>As a Product Design Lead, I work with dev and design to ensure that we deliver the best possible experiences for our users.</p>
-          <p>On the technical side as a Software Developer  with a specialized focus on front end technologies, I’ve had the privilege of building products and delivering services to clients around the world.</p>
+          <p>As a Senior UX Engineer, I work at the cross path of engineering and design to ensure that we deliver the best possible experiences for our users.</p>
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
           <p><em><small>For a detailed resume and updated portfolio, please <a className="text-link-dark" href="mailto:makertolentino@gmail.com" target="_blank" rel="noopener noreferrer">send me a message</a>.</small></em></p>
 
