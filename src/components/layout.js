@@ -38,7 +38,7 @@ class Layout extends Component {
         <Header />
         <main>{this.props.children}</main>
         <Footer />
-        <button className={`rt-page-scroll-up ${this.state.visibleClass}`} onClick={this.scrollToTop}>↑</button>
+        <button className={`rt-page-scroll-up ${this.state.visibleClass}`} onClick={this.scrollToTop}>▲</button>
       </>
     )
   }
