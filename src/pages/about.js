@@ -23,8 +23,8 @@ const AboutPage = () => (
     <section className="rt-hero-about">
       <div className="rt-container">
         <div className="rt-hero-about-content">
-          <hr className="divider-alt" />
           <h1 className="rt-hero-contact-title">about</h1>
+          <hr className="divider" />
           <p>I’m a husband, father, son, brother – the identifiers go on, but I always define myself in some familial aspect, at the core.</p>
 
           <p>Real quick: I grew up in Cali, lived in Japan between middle and high school years, attended college in the Bay area, met my wife in ’06 and eventually we moved to San Diego to start a family.</p>

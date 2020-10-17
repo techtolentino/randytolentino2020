@@ -1,8 +1,7 @@
 .#{$prefix} {
   
   &-header {
-    background: url('../images/bg-banner.svg') center center no-repeat;
-    background-size: cover;
+    color: $dark;
     
     @include breakpoint(md) {
       position: fixed;
@@ -27,7 +26,7 @@
     margin-bottom: 0;
     font-size: 1rem;
     text-decoration: none;
-    color: $white;
+    color: $dark;
     @include breakpoint(md) {
       font-size: .75rem;
       display: block;
@@ -44,13 +43,15 @@
   
   &-header-nav-item {
     padding: .5rem .75rem;
-    color: $white;
     text-decoration: none;
     text-transform: uppercase;
+    color: $dark;
     
     &:hover {
+      color: $purple;
       text-decoration: underline;
     }
+
     
     @include breakpoint(md) {
       font-size: .75rem;

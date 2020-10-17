@@ -9,45 +9,30 @@
   
   &-dark {
     display: inline-block;
-    padding: .75rem 1rem;
-    border: 1px solid $white;
-    background: transparent;
-    color: $white;
+    margin-right: 1rem;
+    color: $dark;
     text-decoration: none;
     font-weight: 600;
-    border-radius: 2rem;
-    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: .3s color cubic-bezier(0.075, 0.82, 0.165, 1);
     
-    &:not(:last-child) {
-      margin-right: 1rem;
-    }
+    
     &:hover {
-      transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
-      background: $blue-dark;
-      border-color: $blue-dark;
-      color: $blue-hint;
+      transition: .3s color cubic-bezier(0.075, 0.82, 0.165, 1);
+      color: $purple;
     }
   }
   
   &-white {
     display: inline-block;
-    padding: .75rem 1rem;
-    border: 1px solid $white;
-    background: $white;
-    color: $purple;
+    color: $dark;
+    margin-right: 1.5rem;
     text-decoration: none;
     font-weight: 600;
-    border-radius: 2rem;
-    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: .3s color cubic-bezier(0.075, 0.82, 0.165, 1);
     
-    &:not(:last-child) {
-      margin-right: .5rem;
-    }
     &:hover {
-      transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
-      background: $blue-dark;
-      border-color: $blue-dark;
-      color: $blue-hint;
+      transition: .3s color cubic-bezier(0.075, 0.82, 0.165, 1);
+      color: $purple;
     }
   }
   
@@ -55,6 +40,7 @@
     display: inline-block;
     padding: .75rem 1rem;
     margin-bottom: 1.5rem;
+    margin-right: 1rem;
     border: 1px solid $purple;
     background: $white;
     color: $purple;
@@ -62,10 +48,6 @@
     font-weight: 600;
     border-radius: 2rem;
     transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);
-    
-    &:not(:last-child) {
-      margin-right: 1rem;
-    }
     
     &:hover {
       transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1);

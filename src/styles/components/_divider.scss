@@ -1,17 +1,12 @@
 @mixin divider {
   border: 0;
-  height: 0;
-  width: 1.5rem;
+  height: 3rem;
+  width: 2rem;
   margin-bottom: 0;
   margin-left: 0;
 }
 
 .divider {
   @include divider();
-  border-top: 2px solid $green;
-  
-  &-alt {
-    @include divider();
-    border-top: 2px solid $purple;
-  }
+  border-top: 8px solid $purple;
 }

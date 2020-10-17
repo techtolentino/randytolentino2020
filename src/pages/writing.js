@@ -25,8 +25,8 @@ const WritingPage = () => (
     <section className="rt-hero-work">
       <div className="rt-container">
         <div className="rt-hero-work-content">
-          <hr className="divider-alt" />
           <h1 className="rt-hero-work-title">writing</h1>
+          <hr className="divider" />
           <p>These days, I use the craft of writing to explore themes and spaces that I deeply care about: family culture, career growth, and self-development.</p>
 
           <p>Through personal storytelling, my goal is to help every day people like you and me, discover the hidden qualities in ourselves, so that we can have a positive impact on those around us and make the best of this journey, collectively.</p>

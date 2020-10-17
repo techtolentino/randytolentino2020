@@ -20,9 +20,7 @@
 
 .#{$prefix} {
   &-hero {
-    background: url('../images/bg.svg') center center no-repeat;
-    background-size: cover;
-    color: $white;
+    color: $dark;
     
     & .rt-container {
       @include container;
@@ -52,8 +50,6 @@
   &-hero-work,
   &-hero-writing,
   &-hero-contact {
-    background: url('../images/bg-white.svg') center center no-repeat;
-    background-size: cover;
     
     & .rt-container {
       @include container;
@@ -65,7 +61,7 @@
     
     &-title {
       @include title;
-      color:$blue-dark;
+      // color:$blue-dark;
     }
     
     &-subtitle {
@@ -74,8 +70,6 @@
   }
   
   &-hero-about {
-    background: url('../images/bg-white.svg') center center no-repeat;
-    background-size: cover;
     
     & .rt-container {
       @include container;

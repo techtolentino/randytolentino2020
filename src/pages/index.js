@@ -10,14 +10,12 @@ const IndexPage = () => (
     <section className="rt-hero">
       <div className="rt-container">
         <div className="rt-hero-content">
+          <h1 className="rt-hero-title">hello</h1>
           <hr className="divider" />
-          <h1 className="rt-hero-title">maker</h1>
-          <p className="rt-hero-title-lead">First and foremost—safety, wellness, and health to you and your people.</p>
-          <p>Hello hello! <span role="img" aria-label="Hand waving emoji">👋</span></p>
-          <p>My name’s Randy Tolentino (@makertolentino).</p>
-          <p>I’m a Senior UX Engineer at IBM. Outside of work, I focus on thought leadership and people-development as a freelance writer and artist.</p>
+          <p>My name’s Randy Tolentino.</p>
+          <p>I’m a UX Engineer. Outside of work, I focus on thought leadership and people-development as a freelance writer and artist.</p>
           <p className="rt-hero-subtitle">You can learn more about me <Link
-            className="text-white"
+            className="text-purps"
             to="/about"
           >here</Link>, otherwise, feel free to check out some of my work.</p>
           <Link className="rt-link-white" to="/work">view my work ▸</Link>
