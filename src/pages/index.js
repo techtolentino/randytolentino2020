@@ -15,7 +15,7 @@ const IndexPage = () => (
           <p>My name’s Randy Tolentino.</p>
           <p>I’m a UX Engineer. Outside of work, I focus on thought leadership and people-development as a freelance writer and artist.</p>
           <p className="rt-hero-subtitle">You can learn more about me <Link
-            className="text-purps"
+            className="text-link-dark"
             to="/about"
           >here</Link>, otherwise, feel free to check out some of my work.</p>
           <Link className="rt-link-white" to="/work">view my work ▸</Link>
