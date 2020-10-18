@@ -26,8 +26,8 @@ const WorkPage = () => (
     <section className="rt-hero-work">
       <div className="rt-container">
         <div className="rt-hero-work-content">
-          <h1 className="rt-hero-work-title">work</h1>
           <hr className="divider" />
+          <h1 className="rt-hero-work-title">work</h1>
           <p>I’m one of the lucky ones. I say that because I truly believe the most fascinating and influential aspects of technology are found at the intersection of design and engineering.</p>
           <p>That's where I live.</p>
           <p>In my role, I exchange information at the cross path of user experience and implementation, to ensure that we arrive with the nice experiences for others.</p>

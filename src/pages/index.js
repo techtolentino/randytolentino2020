@@ -10,8 +10,8 @@ const IndexPage = () => (
     <section className="rt-hero">
       <div className="rt-container">
         <div className="rt-hero-content">
-          <h1 className="rt-hero-title">hello</h1>
           <hr className="divider" />
+          <h1 className="rt-hero-title">hello</h1>
           <p>My name’s Randy Tolentino.</p>
           <p>I’m write code for a living. Off hours, I focus on thought leadership and people-development as a freelance writer and independent hip hop artist.</p>
           <p className="rt-hero-subtitle">You can learn more about me <Link

@@ -18,8 +18,8 @@ const AboutPage = () => (
     <section className="rt-hero-about">
       <div className="rt-container">
         <div className="rt-hero-about-content">
-          <h1 className="rt-hero-contact-title">ills</h1>
           <hr className="divider" />
+          <h1 className="rt-hero-contact-title">ills</h1>
           <p>Growing up I was always fascinated with graffiti and any form of art that orginated from street culture. I remember sitting in the backseat of the family van, quietly admiring tags, murals and pieces that I‘d see while we drove around San Diego.</p>
           <p>I was one of those kids in high school who kept a notebook of pieces, and would spend more time practicing lettering, arrows, and characters, than I would studying algebra.</p>
           <p>More recently, I‘ve tried to reconnect with that passion of appreciating the same aesthetics within design. I‘d argue that this love for art never escaped me. And this is why I keep designers, illustrators, and makers in the network.</p>

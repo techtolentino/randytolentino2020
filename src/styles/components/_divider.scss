@@ -1,6 +1,6 @@
 @mixin divider {
   border: 0;
-  height: 3rem;
+  height: 1.5rem;
   width: 2rem;
   margin-bottom: 0;
   margin-left: 0;
@@ -8,5 +8,5 @@
 
 .divider {
   @include divider();
-  border-top: 8px solid $purple;
+  border-top: 8px solid $light-gray;
 }
