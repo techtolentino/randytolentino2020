@@ -41,11 +41,11 @@ const AboutPage = () => (
           <ul className="rt-hero-current-list">
             <li>
               <span className="rt-hero-current-category">Writing:</span>
-              <span className="rt-hero-current-pick"><Link className="text-link-dark" to="/contact">The Puff Coat Chapters</Link></span>
+              <span className="rt-hero-current-pick">Dreaming about tech</span>
             </li>
             <li>
               <span className="rt-hero-current-category">Reading:</span>
-              <span className="rt-hero-current-pick"><em>The PowerX Strategy</em> by Markus Heitkoetter</span>
+              <span className="rt-hero-current-pick"><em>The Manager‘s Path</em></span>
             </li>
             <li>
               <span className="rt-hero-current-category">Listening:</span>
@@ -123,7 +123,7 @@ const AboutPage = () => (
         <div className="rt-about-item">
           <img className="rt-work-img" src={Bench2} alt="Illustration of me sitting on a couch, studying" />
           <div className="rt-work-meta extra">
-            <h5 className="rt-work-section-item-title">The 25 Bench (side)</h5>
+            <h5 className="rt-work-section-item-title">The 25 bench (side)</h5>
             <p className="rt-about-extra-meta">
               same but w/ patio placement
             </p>

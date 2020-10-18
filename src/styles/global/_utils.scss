@@ -16,11 +16,10 @@
   }
   
   &-link-dark {
-    text-decoration: none;
-    color: $purple;
+    color: $blue-dark;
     
     &:hover {
-      text-decoration: underline;
+      color: $purple;
     }
   }
   

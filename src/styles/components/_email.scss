@@ -2,13 +2,13 @@
   display: flex;
   padding: 2rem 0 4rem 0;
   &-input {
-    border: 1px solid $purple;
+    border: 1px solid $blue-dark;
     min-width: 200px;  
     padding: .5rem;
   }
   
   &-button {
-    background: $purple;
+    background: $blue-dark;
     color: $white;
     outline: none;
     border: none;
