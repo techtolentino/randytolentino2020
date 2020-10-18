@@ -30,7 +30,7 @@ const WorkPage = () => (
           <hr className="divider" />
           <p>I’m one of the lucky ones. I say that because I truly believe the most fascinating and influential aspects of technology are found at the intersection of design and engineering.</p>
           <p>That's where I live.</p>
-          <p>As a Senior UX Engineer, I work at the cross path of user experience and implementation to ensure that we deliver the best possible experiences for our users.</p>
+          <p>In my role, I exchange information at the cross path of user experience and implementation, to ensure that we arrive with the nice experiences for others.</p>
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
           <p><em><small>For a detailed resume and updated portfolio, please <a className="text-link-dark" href="mailto:makertolentino@gmail.com" target="_blank" rel="noopener noreferrer">send a message</a>.</small></em></p>
 

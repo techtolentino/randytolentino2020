@@ -93,7 +93,7 @@ const AboutPage = () => (
         <div className="rt-about-item">
           <img className="rt-work-img" src={Hoodie0} alt="Thumbnail of inconsistent branding images" />
           <div className="rt-work-meta extra">
-            <h5 className="rt-work-section-item-title">The Dark Launch (dev)</h5>
+            <h5 className="rt-work-section-item-title">The Dark Launch hoodie (dev)</h5>
             <p className="rt-about-extra-meta">
               idea, ink x moleskine
             </p>
