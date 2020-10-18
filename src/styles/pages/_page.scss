@@ -4,14 +4,13 @@
   }
   &-scroll-up.is-visible {
     position: fixed;
-    bottom: 1.5rem;
-    right: .5rem;
+    bottom: 3.5rem;
+    right: .25rem;
     background: $dark;
     color: $white;
-    border: 1px solid $white;
+    border: 1px solid $dark;
     display: block;
-    width: 2rem;
-    height: 2rem;
+    padding: .75rem;
     
     &:hover {
       cursor: pointer;
