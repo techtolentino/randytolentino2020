@@ -74,7 +74,7 @@ const WorkPage = () => (
           <p>That's where I live.</p>
           <p>In my role, I exchange information at the cross path of user experience and implementation, to ensure that we arrive with the nice experiences for others.</p>
           <p className="rt-hero-work-subtitle">This collective body of work has served people on many levels, from internal product teams to major, national nonprofit organizations, and large enterprise clients as well.</p>
-          <p><em><small>For a detailed resume and updated portfolio, please <a className="text-link-dark" href="mailto:makertolentino@gmail.com" target="_blank" rel="noopener noreferrer">send a message</a>.</small></em></p>
+          <p><em><small>For a detailed resume and updated portfolio, please <a className="text-link-dark" href="mailto:infotolentino@gmail.com" target="_blank" rel="noopener noreferrer">send a message</a>.</small></em></p>
 
         </div>
       </div>

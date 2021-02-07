@@ -19,6 +19,7 @@
     &:hover {
       transition: .3s color cubic-bezier(0.075, 0.82, 0.165, 1);
       color: $purple;
+      background-color: $blue-hint;
     }
   }
   
