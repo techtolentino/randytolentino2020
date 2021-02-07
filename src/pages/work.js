@@ -484,7 +484,7 @@ const WorkPage = () => (
       </div>
     </section>
 
-    <section className="rt-work-section">
+    <section className="rt-work-section rt-bg-alt">
       <div className="rt-container">
         <div className="rt-about-item">
           <img className="rt-work-img" src={KeyHolder} alt="Close up illustration of someone using hand gestures" />
