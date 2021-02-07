@@ -81,7 +81,7 @@
     display: block;
     max-width: 90%;
     padding: 1rem;
-    min-height: 300px;
+    min-height: 10rem;
     position: relative;
     @include breakpoint(sm) {
       min-height: initial;

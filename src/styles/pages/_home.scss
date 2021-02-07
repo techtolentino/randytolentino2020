@@ -9,7 +9,7 @@
 
 @mixin container {
   display: flex;
-  min-height: calc(100vh - 7.375rem);
+  min-height: calc(100vh - 12.375rem);
   padding-top: 6rem;
   
   @include breakpoint(md) {
@@ -50,9 +50,9 @@
   &-hero-work,
   &-hero-writing,
   &-hero-contact {
-    
     & .rt-container {
       @include container;
+      min-height: initial;
     }
     
     &-content {
@@ -68,16 +68,17 @@
       margin-bottom: 3rem;
     }
   }
+
+  &-hero-contact {
+    & .rt-container {
+      min-height: calc(100vh - 12.375rem);
+    }
+  }
+
   
   &-hero-about {
-    
     & .rt-container {
       @include container;
-      justify-content: space-between;
-      
-      @include breakpoint(md) {
-        flex-direction: column;
-      }
     }
     
     &-content,
@@ -94,6 +95,10 @@
     }
   }
   
+  &-hero-writing {
+    background-color: #fbfbfb;
+  }
+
   &-hero-current {
     &-category {
       font-weight: 600;
@@ -103,6 +108,24 @@
     &-pick {
       display: block;
       margin-bottom: 1rem;
+    }
+  }
+
+  &-bg-alt {
+    background-color: #fbfbfb;
+  }
+
+  &-contact-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+
+    &-item img{
+      display: block;
+      width: 100%;
+      max-width: 2rem;
+      margin: 1rem;
     }
   }
 

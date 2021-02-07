@@ -2,17 +2,6 @@
   &-footer {
     padding: .5rem 0;
     
-    & .rt-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      
-      @include breakpoint(md) {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-    }
-    
     &-meta {
       font-size: .75rem;
       @include breakpoint(md) {
@@ -20,28 +9,5 @@
       }
     }
     
-    &-social {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      
-      li a {
-        color: $dark;
-        text-decoration: none;
-        padding-left: 1rem;
-        font-size: .75rem;
-        
-        @include breakpoint(md) {
-          padding-left: 0;
-          padding-right: 1rem;
-        }
-      }
-      
-      li a:hover {
-        cursor: pointer;
-        text-decoration: underline;
-        color: $purple;
-      }
-    }
   }
 }

@@ -14,12 +14,10 @@ const IndexPage = () => (
           <h1 className="rt-hero-title">hello</h1>
           <p>My name’s Randy Tolentino.</p>
           <p>I write code for a living. Off hours, I focus on thought leadership and people-development as a freelance writer and independent hip hop artist.</p>
-          <p className="rt-hero-subtitle">You can learn more about me <Link
+          <p className="rt-hero-subtitle">Learn a little bit about me <Link
             className="text-link-dark"
             to="/about"
-          >here</Link>, otherwise, feel free to check out some of the work.</p>
-          <Link className="rt-link-white" to="/work">view my work ▸</Link>
-          <Link className="rt-link-dark" to="/writing">latest writing ▸</Link>
+          >here</Link>, otherwise, feel free to <Link className="text-link-dark" to="/work">view my work.</Link></p>
         </div>
       </div>
     </section>
