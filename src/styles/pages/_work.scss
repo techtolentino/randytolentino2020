@@ -38,7 +38,6 @@
     display: block;
     color: $dark;
     text-decoration: none;
-    border: 1px solid #EAEAEA;
     width: 100%;
     position: relative;
     transition: .6s all cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -79,8 +78,8 @@
   
   &-meta {
     display: block;
-    max-width: 90%;
     padding: 1rem;
+    background-color: $white;
     min-height: 10rem;
     position: relative;
     @include breakpoint(sm) {
@@ -89,6 +88,7 @@
     
     &.writing {
       min-height: 164px;
+      background-color: $white;
     }
     
     &.extra {

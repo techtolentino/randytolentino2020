@@ -14,7 +14,8 @@
   
   @include breakpoint(md) {
     padding-top: 10rem;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
+    min-height: initial;
   }
 }
 
@@ -79,6 +80,7 @@
   &-hero-about {
     & .rt-container {
       @include container;
+      min-height: initial;
     }
     
     &-content,
@@ -96,7 +98,8 @@
   }
   
   &-hero-writing {
-    background-color: #fbfbfb;
+    background-color: $dark;
+    color: $white;
   }
 
   &-hero-current {
@@ -112,7 +115,8 @@
   }
 
   &-bg-alt {
-    background-color: #fbfbfb;
+    background-color: $dark;
+    color: $white;
   }
 
   &-contact-list {
